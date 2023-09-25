@@ -15,3 +15,7 @@ export function formatSocketData(type: string, value?: any) {
   })
   return data
 }
+
+export const getPercent = (a: number, b: number) => {
+  return a / (b || 1) * 100
+}

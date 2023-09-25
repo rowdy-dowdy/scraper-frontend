@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  #root {
+  /* #root {
     @apply w-full min-h-screen bg-gray-100;
-  }
+  } */
+  
 }
